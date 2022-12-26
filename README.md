@@ -4,7 +4,7 @@
 - Secure login system
 - Ability to place multiple orders
 - Display of quick products & orders
-- Can create, update and delete product.
+- Can create, update and delete product
 - Can create, update and delete order
 
 # How to run?
@@ -37,6 +37,8 @@
    ```
    php artisan key:generate 
    php artisan migrate
+   php artisan make:auth
+   php artisan config:clear
    ```
 6. **Finally run the application**
    ```
@@ -44,6 +46,8 @@
    ```
 
 # Screenshots
-
-## Admin
+![image](https://user-images.githubusercontent.com/119964141/209576854-ae692a35-b8c2-45ef-9d5e-597d9d3a9f17.png)
+![image](https://user-images.githubusercontent.com/119964141/209576889-67ae97b2-aba9-46f0-a8f6-a7c5a34e208e.png)
+![image](https://user-images.githubusercontent.com/119964141/209576948-c42d7447-9659-4fdd-80e6-6ef0bc5f4061.png)
+![image](https://user-images.githubusercontent.com/119964141/209576996-a93f32e7-42dd-4f11-aa3b-43ef7c276f26.png)
 
